@@ -40,6 +40,11 @@ copy [init.el](/init.el) to ~/.emacs.d/
 - Install git \
 `brew install git`
 
+- Customize Terminal/Bash \
+Open Terminal > Preferences > General: New window with profile: Pro\
+Open Terminal > Preferences > Profiles: Set Pro as default\
+Copy [.bash_profile](/.bash_profile), [.bashrc](/.bashrc), [.bash_aliases](/.bash_aliases), [.profile](/.profile) to `~`
+
 - Install LaTeX \
 Download and install it from [MacTeX](http://www.tug.org/mactex/)
 
