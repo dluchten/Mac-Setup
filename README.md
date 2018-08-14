@@ -40,3 +40,5 @@ copy [init.el](/init.el) to ~/.emacs.d/
 - Install git, [Short guide](http://rogerdudler.github.io/git-guide/) \
 `brew install git`
 
+- Install LaTeX
+Download and install it [MacTeX](http://www.tug.org/mactex/)
