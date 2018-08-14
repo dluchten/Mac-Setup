@@ -34,7 +34,7 @@ Check by running: `python --version` (should be 3.7.0, or higher) \
 
 - Install Emacs\
 brew cask install emacs
-- Install packages for theme, Python editing, ...(see [this website](https://realpython.com/emacs-the-best-python-editor/))\
+- Install packages for theme, Python editing, ...
 copy [init.el](/init.el) to ~/.emacs.d/
 
 - Install git, [Short guide](http://rogerdudler.github.io/git-guide/) \
@@ -42,3 +42,8 @@ copy [init.el](/init.el) to ~/.emacs.d/
 
 - Install LaTeX
 Download and install it from [MacTeX](http://www.tug.org/mactex/)
+
+## Useful Resources
+- [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
+- [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
+
