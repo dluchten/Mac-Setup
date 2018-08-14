@@ -38,4 +38,5 @@ brew cask install emacs
 copy [init.el](/init.el) to ~/.emacs.d/
 
 - Install git \
-`brew install git`
+`brew install git`\
+[Short guide](http://rogerdudler.github.io/git-guide/)
