@@ -44,6 +44,7 @@ copy [init.el](/init.el) to ~/.emacs.d/
 Download and install it from [MacTeX](http://www.tug.org/mactex/)
 
 ## Useful Resources
-- [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
+- [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
+- [Practical Emacs Tutorial](http://ergoemacs.org/emacs/emacs.html)
 
