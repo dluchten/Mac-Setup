@@ -34,7 +34,7 @@ Check by running: `python --version` (should be 3.7.0, or higher) \
 
 - Install Emacs\
 brew cask install emacs
-- Install packages for theme, Python editing, ...\
+- Install packages for theme, Python editing, ...(see [this website](https://realpython.com/emacs-the-best-python-editor/))\
 copy [init.el](/init.el) to ~/.emacs.d/
 
 - Install git \
