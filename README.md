@@ -41,4 +41,4 @@ copy [init.el](/init.el) to ~/.emacs.d/
 `brew install git`
 
 - Install LaTeX
-Download and install it [MacTeX](http://www.tug.org/mactex/)
+Download and install it from [MacTeX](http://www.tug.org/mactex/)
