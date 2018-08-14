@@ -37,7 +37,7 @@ brew cask install emacs
 - Install packages for theme, Python editing, ...
 copy [init.el](/init.el) to ~/.emacs.d/
 
-- Install git, [Short guide](http://rogerdudler.github.io/git-guide/) \
+- Install git \
 `brew install git`
 
 - Install LaTeX \
@@ -47,4 +47,5 @@ Download and install it from [MacTeX](http://www.tug.org/mactex/)
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
 - [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
 - [Practical Emacs Tutorial](http://ergoemacs.org/emacs/emacs.html)
+- [Short Git guide](http://rogerdudler.github.io/git-guide/)
 
