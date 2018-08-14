@@ -37,6 +37,6 @@ brew cask install emacs
 - Install packages for theme, Python editing, ...(see [this website](https://realpython.com/emacs-the-best-python-editor/))\
 copy [init.el](/init.el) to ~/.emacs.d/
 
-- Install git \
-`brew install git`\
-[Short guide](http://rogerdudler.github.io/git-guide/)
+- Install git, [Short guide](http://rogerdudler.github.io/git-guide/) \
+`brew install git`
+
