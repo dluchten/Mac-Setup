@@ -48,6 +48,13 @@ Copy [.bash_profile](/.bash_profile), [.bashrc](/.bashrc), [.bash_aliases](/.bas
 - Install LaTeX \
 Download and install it from [MacTeX](http://www.tug.org/mactex/)
 
+- Visual Settings
+Change position to Left and make the size of icons Small
+Remove workspace auto-switching by running the following command:
+`defaults write com.apple.dock workspaces-auto-swoosh -bool NO`
+`killall Dock # Restart the Dock process`
+
+
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
 - [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
