@@ -54,10 +54,12 @@ Remove workspace auto-switching by running the following command: \
 `defaults write com.apple.dock workspaces-auto-swoosh -bool NO` \
 `killall Dock # Restart the Dock process`
 
-- Mount remote file systems over ssh; install FUSE and SSHFS:\
-`brew cask install osxfuse` and `brew install sshfs` \
+- Mount remote file systems over ssh\
+Install FUSE and SSHFS: `brew cask install osxfuse` and `brew install sshfs` \
 Mount using ssh key: `sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa user@host:/remotefolder/ /localfolder`\
-Unmount: `sudo umount /localfolder`
+Unmount: `sudo umount -f /localfolder` \
+If hanging, get pid: `pgrep -lf sshfs` and `kill -9 <pid>`
+
 
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
