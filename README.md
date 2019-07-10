@@ -8,8 +8,10 @@ Download and install it from the App Store or from [Apple's website](https://dev
 - Install Xcode command line tools \
 `xcode-select --install`
 
-- Install Homebrew \
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install Homebrew and Cask (for binary *.dmg files) \
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` \
+`brew tap caskroom/cask` 
+
 
 - Install Python 3, gcc compiler (includes `gfortran` needed for compiling SciPy modules), etc. \
 `brew install python3 gcc` \
@@ -36,6 +38,9 @@ Check by running: `python --version` (should be 3.7.0, or higher) \
 `brew cask install emacs`
 - Install packages for theme, Python editing, ...
 copy [init.el](/init.el) to ~/.emacs.d/
+
+- Install Visual Studio Code
+`brew cask install visual-studio-code`
 
 - Install git \
 `brew install git`
