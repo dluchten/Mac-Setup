@@ -51,7 +51,7 @@ Open Terminal > Preferences > Profiles: Set Pro as default\
 Copy [.bash_profile](/.bash_profile), [.bashrc](/.bashrc), [.bash_aliases](/.bash_aliases), [.profile](/.profile) to `~`
 
 - Install LaTeX \
-Download and install it from [MacTeX](http://www.tug.org/mactex/)
+`brew cask install mactex`
 
 - Visual Settings \
 Change position to Left and make the size of icons Small \
