@@ -3,19 +3,15 @@
 - Install recommended updates \
 `softwareupdate -ir --verbose`
 
-- Install Xcode \
-Download and install it from the App Store or from [Apple's website](https://developer.apple.com/xcode/).
-- Install Xcode command line tools \
-`xcode-select --install`
-
-- Install Homebrew and Cask (for binary *.dmg files) \
+- Install Homebrew and Cask 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` \
 `brew tap caskroom/cask` 
 
 
-- Install Python 3, gcc compiler (includes `gfortran` needed for compiling SciPy modules), etc. \
-`brew install python3 gcc` \
-`pip3 install numpy scipy matplotlib ipython`
+- Install Pyenv\
+Pyenv is a package manager specifically for python itself. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version.
+`brew install pyenv pyenv-virtualenv`\
+
 
 - Check if Python and packages were succesfully installed with following snippet (from [this website](https://symbols.hotell.kau.se/2017/11/11/get_started_with_python/))
 ```
