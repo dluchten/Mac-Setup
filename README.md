@@ -1,4 +1,4 @@
-# Mac-Setup
+# MBP setup
 ## Install recommended updates
 `softwareupdate -ir --verbose`
 
