@@ -44,6 +44,9 @@ plt.show()
 ### slycot, control
 needs xcode, and gfortran\
 `brew install gfortran`
+- Check if packages work with examples from
+[Examples](https://python-control.readthedocs.io/en/latest/examples.html)
+
 
 - Add Homebrew Python link to path to `~\.profile` so Homebrew Python 3 is default (not Mac version 2.7) \
 `export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/local/sbin:~/bin:$PATH` \
