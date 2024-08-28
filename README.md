@@ -19,6 +19,9 @@ Add following lines to .zshrc \
    `pyenv install 3.12.5`
  -  Set installed version as global version: \
    `pyenv global 3.12.5`
+ -  or, local version: \
+   `pyenv local 3.12.5`
+
    
 ## Install Python packages
 `python -m pip install <package_name>`
