@@ -63,6 +63,10 @@ needs xcode, and gfortran\
 [Examples](https://python-control.readthedocs.io/en/latest/examples.html)
 
 
+## [Quarto](https://quarto.org) 
+`brew install --cask quarto`
+
+
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
 - [Mac install guide](https://mac.install.guide/mac-setup/)
