@@ -9,7 +9,6 @@ If xcode is not installed, this will automatically install xcode command line to
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ## LaTeX
-`brew cask install basictex`,or full package \
 `brew cask install mactex`
 
 ## Rectangle (Split screen)
