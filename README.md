@@ -65,6 +65,6 @@ needs xcode, and gfortran\
 
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
-- [Mac install guide](https://mac.install.guide)
+- [Mac install guide](https://mac.install.guide/mac-setup/)
 - [Short Git guide](http://rogerdudler.github.io/git-guide/)
 
