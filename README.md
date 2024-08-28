@@ -1,12 +1,13 @@
 # Mac-Setup
-
-- Install recommended updates \
+## Install recommended updates \
 `softwareupdate -ir --verbose`
 
-- Install Homebrew and Cask \
+## Install xcode (appstore) \
+
+## Install Homebrew and Cask \
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-- Pyenv\
+## Pyenv\
 Pyenv is a package manager for python. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version. \
 `brew install pyenv pyenv-virtualenv` \
 Add following lines to .zshrc \
