@@ -25,7 +25,7 @@ Add following lines to .zshrc \
 
    
 ## Install Python packages
-numpy, scipy, matplotlib \
+### numpy, scipy, matplotlib \
 `python -m pip install <package_name>`
 
 - Check if packages work with following snippet
@@ -41,6 +41,10 @@ grid = np.meshgrid(np.linspace(0,1),np.linspace(0,1))
 plt.imshow(func.ev(grid[0],grid[1]))
 plt.show()
 ```
+### slycot
+needs xcode, and gfortran\
+`brew install gfortran`
+
 - Add Homebrew Python link to path to `~\.profile` so Homebrew Python 3 is default (not Mac version 2.7) \
 `export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/local/sbin:~/bin:$PATH` \
 Check by running: `python --version` (should be 3.7.0, or higher) \
