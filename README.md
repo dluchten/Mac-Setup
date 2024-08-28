@@ -64,6 +64,7 @@ needs xcode, and gfortran\
 
 
 ## [Quarto](https://quarto.org) 
+For my webpage\
 `brew install --cask quarto`
 
 
