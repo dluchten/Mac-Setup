@@ -4,9 +4,7 @@
 `softwareupdate -ir --verbose`
 
 - Install Homebrew and Cask 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` \
-`brew tap caskroom/cask` 
-
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 - Install Pyenv\
 Pyenv is a package manager specifically for python itself. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version.\
