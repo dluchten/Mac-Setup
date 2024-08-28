@@ -5,6 +5,7 @@
 ## Install xcode (appstore)
 
 ## Install Homebrew and Cask
+If xcode is not installed, this will automatically install xcode command line tools (c compiler etc.)\
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ## Pyenv
