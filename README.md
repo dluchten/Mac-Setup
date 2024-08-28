@@ -41,7 +41,7 @@ grid = np.meshgrid(np.linspace(0,1),np.linspace(0,1))
 plt.imshow(func.ev(grid[0],grid[1]))
 plt.show()
 ```
-### slycot
+### slycot, control
 needs xcode, and gfortran\
 `brew install gfortran`
 
