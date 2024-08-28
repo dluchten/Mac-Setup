@@ -28,7 +28,7 @@ Add following lines to .zshrc \
 numpy, scipy, matplotlib \
 `python -m pip install <package_name>`
 
-- Check if Python and packages were succesfully installed with following snippet
+- Check if packages work with following snippet
 ```
 import numpy as np
 from scipy.interpolate import RectBivariateSpline
