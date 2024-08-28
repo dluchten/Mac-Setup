@@ -7,9 +7,9 @@
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 - Install Pyenv\
-Pyenv is a package manager specifically for python itself. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version.\
-`brew install pyenv pyenv-virtualenv`
-Add following line to .zshrc\
+Pyenv is a package manager specifically for python itself. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version. \
+`brew install pyenv pyenv-virtualenv` \
+Add following lines to .zshrc \
 `eval "$(pyenv init -)"` \
 `if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi`
 
