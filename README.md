@@ -15,6 +15,11 @@ If xcode is not installed, this will automatically install xcode command line to
 ## Rectangle (Split screen)
 `brew cask install rectangle`
 
+## Git
+`brew cask install git`
+
+
+
 ## Install Visual Studio Code
 `brew cask install visual-studio-code`
 
