@@ -20,7 +20,10 @@ Add following lines to .zshrc \
  -  Set installed version as global version: \
    `pyenv global 3.12.5`
    
-- Check if Python and packages were succesfully installed with following snippet (from [this website](https://symbols.hotell.kau.se/2017/11/11/get_started_with_python/))
+## Install Python packages
+`python -m pip install <package_name>`
+
+- Check if Python and packages were succesfully installed with following snippet
 ```
 import numpy as np
 from scipy.interpolate import RectBivariateSpline
