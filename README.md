@@ -9,7 +9,10 @@ If xcode is not installed, this will automatically install xcode command line to
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ## LaTeX
-`brew cask install mactex`
+`brew install --cask miktex-console`
+- Select User Mode
+- Settings > packages installed automatically
+[set path](https://miktex.org/howto/modify-path)
 
 ## Rectangle (Split screen)
 `brew cask install rectangle`
