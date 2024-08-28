@@ -8,6 +8,13 @@
 If xcode is not installed, this will automatically install xcode command line tools (c compiler etc.)\
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+## LaTeX
+`brew cask install basictex`,or full package \
+`brew cask install mactex`
+
+## Rectangle (Split screen)
+`brew cask install rectangle`
+
 ## Install Visual Studio Code
 `brew cask install visual-studio-code`
 
