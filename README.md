@@ -63,31 +63,6 @@ needs xcode, and gfortran\
 [Examples](https://python-control.readthedocs.io/en/latest/examples.html)
 
 
-
-- Install git \
-`brew install git`
-
-- Customize Terminal/Bash \
-Open Terminal > Preferences > General: New window with profile: Pro\
-Open Terminal > Preferences > Profiles: Set Pro as default\
-Copy [.bash_profile](/.bash_profile), [.bashrc](/.bashrc), [.bash_aliases](/.bash_aliases), [.profile](/.profile) to `~`
-
-- Install LaTeX \
-`brew cask install mactex`
-
-- Visual Settings \
-Change position to Left and make the size of icons Small \
-Remove workspace auto-switching by running the following command: \
-`defaults write com.apple.dock workspaces-auto-swoosh -bool NO` \
-`killall Dock # Restart the Dock process`
-
-- Mount remote file systems over ssh\
-Install FUSE and SSHFS: `brew cask install osxfuse` and `brew install sshfs` \
-Mount using ssh key: `sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa user@host:/remotefolder/ /localfolder`\
-Unmount: `sudo umount -f /localfolder` \
-If hanging, get pid: `pgrep -lf sshfs` and `kill -9 <pid>`
-
-
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
 - [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
