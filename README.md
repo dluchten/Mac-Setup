@@ -25,7 +25,7 @@ Add following lines to .zshrc \
 
    
 ## Install Python packages
-### numpy, scipy, matplotlib \
+### numpy, scipy, matplotlib 
 `python -m pip install <package_name>`
 
 - Check if packages work with following snippet
