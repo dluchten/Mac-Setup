@@ -11,9 +11,11 @@ If xcode is not installed, this will automatically install xcode command line to
 ## LaTeX
 `brew install --cask miktex-console`
 - Select User Mode
-- Settings > packages installed automatically\
-- [set path](https://miktex.org/howto/modify-path)
-- LaTeX Workshop, James Yu
+- Settings > packages installed automatically
+- Use launchctl to modify PATH for GUI applications:\
+`sudo launchctl config user path "$HOME/bin:$PATH"` \
+[set path](https://miktex.org/howto/modify-path)
+- VS Code extension: LaTeX Workshop, James Yu
 - Compile TeX document, necessary packages should install automatically, might need to run MikTeX again
   
 ## Rectangle (Split screen)
