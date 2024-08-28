@@ -20,9 +20,13 @@ If xcode is not installed, this will automatically install xcode command line to
 
 
 
-## Install Visual Studio Code
-`brew cask install visual-studio-code`
-
+## Install Visual Studio Code 
+`brew cask install visual-studio-code`\
+Install followings extensions: \
+- LaTeX Workshop, James Yu
+- C/C++ Intellisense, Microsoft
+- Python, Microsoft
+- 
 ## Pyenv
 Pyenv is a package manager for python. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version. \
 `brew install pyenv pyenv-virtualenv` \
