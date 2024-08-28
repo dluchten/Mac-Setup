@@ -65,7 +65,6 @@ needs xcode, and gfortran\
 
 ## Useful Resources
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/SystemPreferences/)
-- [Emacs – The Best Python Editor?](https://realpython.com/emacs-the-best-python-editor/)
-- [Practical Emacs Tutorial](http://ergoemacs.org/emacs/emacs.html)
+- [Mac install guide](https://mac.install.guide)
 - [Short Git guide](http://rogerdudler.github.io/git-guide/)
 
