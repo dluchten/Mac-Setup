@@ -8,6 +8,9 @@
 If xcode is not installed, this will automatically install xcode command line tools (c compiler etc.)\
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+## Install Visual Studio Code
+`brew cask install visual-studio-code`
+
 ## Pyenv
 Pyenv is a package manager for python. It allows you to install multiple versions of python on one machine. The pyenv-virtualenv plugin helps create virtualenvs for a specific python version. \
 `brew install pyenv pyenv-virtualenv` \
@@ -48,17 +51,6 @@ needs xcode, and gfortran\
 [Examples](https://python-control.readthedocs.io/en/latest/examples.html)
 
 
-- Add Homebrew Python link to path to `~\.profile` so Homebrew Python 3 is default (not Mac version 2.7) \
-`export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/local/sbin:~/bin:$PATH` \
-Check by running: `python --version` (should be 3.7.0, or higher) \
-
-- Install Emacs\
-`brew cask install emacs`
-- Install packages for theme, Python editing, ...
-copy [init.el](/init.el) to ~/.emacs.d/
-
-- Install Visual Studio Code
-`brew cask install visual-studio-code`
 
 - Install git \
 `brew install git`
